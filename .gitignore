@@ -1,0 +1,12 @@
+/AgriX_CANSPIDAC/MDK-ARM/AgriX_CANSPIDAC/
+*.bin
+*.o
+*.d
+*.hex
+*.crf
+*.bak
+*.build_log*
+*.uvgui*
+*.orig
+*.axf
+*.dep
