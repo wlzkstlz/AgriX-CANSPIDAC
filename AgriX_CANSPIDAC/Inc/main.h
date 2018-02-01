@@ -41,6 +41,13 @@
 
 /* Private define ------------------------------------------------------------*/
 
+#define DAC8562DIN_Pin GPIO_PIN_13
+#define DAC8562DIN_GPIO_Port GPIOD
+#define DAC8562CLK_Pin GPIO_PIN_14
+#define DAC8562CLK_GPIO_Port GPIOD
+#define DAC8562SYNC_Pin GPIO_PIN_15
+#define DAC8562SYNC_GPIO_Port GPIOD
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

@@ -579,17 +579,17 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=agrix_canspidac\startup_stm32f103xe.d -oagrix_canspidac\startup_st
-m32f103xe.o -I"C:\Users\54391\Documents\cubeMX Projects\AgriX_CANSPIDAC\MDK-ARM
-\RTE" -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK
-\Keil\STM32F1xx_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA 1" --pred
-efine="__UVISION_VERSION SETA 517" --predefine="_RTE_ SETA 1" --predefine="STM3
+m32f103xe.o -IC:\Users\54391\Documents\AgriX-CANSPIDAC\AgriX_CANSPIDAC\MDK-ARM\
+RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\K
+eil\STM32F1xx_DFP\2.2.0\Device\Include --predefine="__MICROLIB SETA 1" --predef
+ine="__UVISION_VERSION SETA 517" --predefine="_RTE_ SETA 1" --predefine="STM32F
 
 
 
 ARM Macro Assembler    Page 10 
 
 
-2F10X_HD SETA 1" --list=startup_stm32f103xe.lst startup_stm32f103xe.s
+10X_HD SETA 1" --list=startup_stm32f103xe.lst startup_stm32f103xe.s
 
 
 

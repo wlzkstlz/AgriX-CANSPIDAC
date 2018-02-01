@@ -33,7 +33,6 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "stm32f1xx_hal.h"
-#include "spi.h"
 #include "gpio.h"
 
 /* USER CODE BEGIN Includes */
@@ -77,10 +76,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_SPI1_Init();
 
   /* USER CODE BEGIN 2 */
-	HAL_Delay(100);
+	HAL_Delay(10);
 	InitDAC8562();
 
   /* USER CODE END 2 */
@@ -93,11 +91,11 @@ int main(void)
 //	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13|GPIO_PIN_14, GPIO_PIN_RESET);
 //	  HAL_Delay(1);
 //	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_13|GPIO_PIN_14, GPIO_PIN_SET);
-	  HAL_Delay(2);
+	  HAL_Delay(1);
 	  
 	  DAC8562_SetData(0,65536/2+5000);
-	 // HAL_Delay(10);
-	  DAC8562_SetData(1,65536/2-10000);
+	  HAL_Delay(1);
+	  DAC8562_SetData(1,65536/2-15000);
 	  
   /* USER CODE END WHILE */
 
